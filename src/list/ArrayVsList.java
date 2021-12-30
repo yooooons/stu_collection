@@ -29,6 +29,7 @@ public class ArrayVsList {
         aList.remove("바");
         System.out.println(aList.size());
         System.out.println(aList);
+        System.out.println("test");
 
     }
 }

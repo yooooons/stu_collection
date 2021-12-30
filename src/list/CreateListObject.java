@@ -23,5 +23,7 @@ public class CreateListObject
 //      aList8.remove(0);
         System.out.println(aList7);
         System.out.println(aList8);
+        System.out.println("test");
+
     }
 }
