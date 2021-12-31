@@ -1,12 +1,14 @@
-package list;
+package vector;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Vector;
 
-public class ArrayListMethod {
+public class VectorMethod {
     public static void main(String[] args) {
-        List<Integer> aList1 =new ArrayList<>();
+//        vector는 arraylist와 사용법은 같으나 차이점은 vector는 동기화를 지원해준다.
+        List<Integer> aList1 =new Vector<>();
 
         aList1.add(3);
         aList1.add(4);
@@ -16,13 +18,13 @@ public class ArrayListMethod {
         aList1.add(1,6);
         System.out.println(aList1.toString());
 
-        List<Integer> aList2=new ArrayList<>();
+        List<Integer> aList2=new Vector<>();
         aList2.add(1);
         aList2.add(2);
         aList2.addAll(aList1);
         System.out.println(aList2);
 
-        List<Integer> aList3=new ArrayList<>();
+        List<Integer> aList3=new Vector<>();
         aList3.add(1);
         aList3.add(2);
         aList3.addAll(1,aList3);
@@ -66,6 +68,5 @@ public class ArrayListMethod {
         System.out.println(Arrays.toString(integer2));
         int[] a = new int[]{1,2,3,4,5};
         System.out.println(Arrays.toString(a));
-
     }
 }
