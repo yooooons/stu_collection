@@ -41,6 +41,7 @@ public class TreeSetMethod {
         for (int i = 50; i >0 ; i-=2) {
             treeSet.add(i);
         }
+
         treeSetSize = treeSet.size();
         for (int i = 0; i < treeSetSize; i++) {
             System.out.print(treeSet.pollLast()+" ");
