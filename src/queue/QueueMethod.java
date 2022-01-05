@@ -6,6 +6,7 @@ import java.util.Queue;
 public class QueueMethod {
     public static void main(String[] args) {
         Queue<Integer> queue1 = new LinkedList<>();
+//        System.out.println(queue1.element());
         queue1.add(3);
         queue1.add(4);
         queue1.add(5);
